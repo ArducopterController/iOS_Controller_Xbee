@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3789DF7D1816423A00C15C63 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3789DF7C1816423A00C15C63 /* CoreMotion.framework */; };
+		378EF1CF1815630D0007CEBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378EF1CE1815630D0007CEBB /* Foundation.framework */; };
+		378EF1D11815630D0007CEBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378EF1D01815630D0007CEBB /* CoreGraphics.framework */; };
+		378EF1D31815630D0007CEBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378EF1D21815630D0007CEBB /* UIKit.framework */; };
+		378EF1D91815630D0007CEBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 378EF1D71815630D0007CEBB /* InfoPlist.strings */; };
+		378EF1DB1815630D0007CEBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 378EF1DA1815630D0007CEBB /* main.m */; };
+		378EF1DF1815630D0007CEBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 378EF1DE1815630D0007CEBB /* AppDelegate.m */; };
+		378EF1E21815630D0007CEBB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378EF1E01815630D0007CEBB /* Main_iPhone.storyboard */; };
+		378EF1E51815630D0007CEBB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378EF1E31815630D0007CEBB /* Main_iPad.storyboard */; };
+		378EF1E81815630D0007CEBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378EF1E71815630D0007CEBB /* ViewController.m */; };
+		378EF1EA1815630D0007CEBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378EF1E91815630D0007CEBB /* Images.xcassets */; };
+		378EF1F11815630D0007CEBB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378EF1F01815630D0007CEBB /* XCTest.framework */; };
+		378EF1F21815630D0007CEBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378EF1CE1815630D0007CEBB /* Foundation.framework */; };
+		378EF1F31815630D0007CEBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378EF1D21815630D0007CEBB /* UIKit.framework */; };
+		378EF1FB1815630D0007CEBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 378EF1F91815630D0007CEBB /* InfoPlist.strings */; };
+		378EF1FD1815630D0007CEBB /* Arducopter_ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 378EF1FC1815630D0007CEBB /* Arducopter_ControllerTests.m */; };
+		378EF208181566740007CEBB /* RoundRectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 378EF207181566740007CEBB /* RoundRectButton.m */; };
+		378EF20A1815669E0007CEBB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378EF2091815669E0007CEBB /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		378EF1F41815630D0007CEBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 378EF1C31815630D0007CEBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378EF1CA1815630D0007CEBB;
+			remoteInfo = Arducopter_Controller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3789DF7C1816423A00C15C63 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		378EF1CB1815630D0007CEBB /* Arducopter_Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arducopter_Controller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378EF1CE1815630D0007CEBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		378EF1D01815630D0007CEBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		378EF1D21815630D0007CEBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		378EF1D61815630D0007CEBB /* Arducopter_Controller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Arducopter_Controller-Info.plist"; sourceTree = "<group>"; };
+		378EF1D81815630D0007CEBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		378EF1DA1815630D0007CEBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		378EF1DC1815630D0007CEBB /* Arducopter_Controller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Arducopter_Controller-Prefix.pch"; sourceTree = "<group>"; };
+		378EF1DD1815630D0007CEBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		378EF1DE1815630D0007CEBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		378EF1E11815630D0007CEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		378EF1E41815630D0007CEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		378EF1E61815630D0007CEBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		378EF1E71815630D0007CEBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		378EF1E91815630D0007CEBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		378EF1EF1815630D0007CEBB /* Arducopter_ControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Arducopter_ControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		378EF1F01815630D0007CEBB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		378EF1F81815630D0007CEBB /* Arducopter_ControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Arducopter_ControllerTests-Info.plist"; sourceTree = "<group>"; };
+		378EF1FA1815630D0007CEBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		378EF1FC1815630D0007CEBB /* Arducopter_ControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Arducopter_ControllerTests.m; sourceTree = "<group>"; };
+		378EF206181566740007CEBB /* RoundRectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundRectButton.h; sourceTree = "<group>"; };
+		378EF207181566740007CEBB /* RoundRectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundRectButton.m; sourceTree = "<group>"; };
+		378EF2091815669E0007CEBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378EF1C81815630D0007CEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3789DF7D1816423A00C15C63 /* CoreMotion.framework in Frameworks */,
+				378EF20A1815669E0007CEBB /* QuartzCore.framework in Frameworks */,
+				378EF1D11815630D0007CEBB /* CoreGraphics.framework in Frameworks */,
+				378EF1D31815630D0007CEBB /* UIKit.framework in Frameworks */,
+				378EF1CF1815630D0007CEBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378EF1EC1815630D0007CEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378EF1F11815630D0007CEBB /* XCTest.framework in Frameworks */,
+				378EF1F31815630D0007CEBB /* UIKit.framework in Frameworks */,
+				378EF1F21815630D0007CEBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378EF1C21815630D0007CEBB = {
+			isa = PBXGroup;
+			children = (
+				378EF1D41815630D0007CEBB /* Arducopter_Controller */,
+				378EF1F61815630D0007CEBB /* Arducopter_ControllerTests */,
+				378EF1CD1815630D0007CEBB /* Frameworks */,
+				378EF1CC1815630D0007CEBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378EF1CC1815630D0007CEBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378EF1CB1815630D0007CEBB /* Arducopter_Controller.app */,
+				378EF1EF1815630D0007CEBB /* Arducopter_ControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378EF1CD1815630D0007CEBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3789DF7C1816423A00C15C63 /* CoreMotion.framework */,
+				378EF2091815669E0007CEBB /* QuartzCore.framework */,
+				378EF1CE1815630D0007CEBB /* Foundation.framework */,
+				378EF1D01815630D0007CEBB /* CoreGraphics.framework */,
+				378EF1D21815630D0007CEBB /* UIKit.framework */,
+				378EF1F01815630D0007CEBB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		378EF1D41815630D0007CEBB /* Arducopter_Controller */ = {
+			isa = PBXGroup;
+			children = (
+				378EF1DD1815630D0007CEBB /* AppDelegate.h */,
+				378EF1DE1815630D0007CEBB /* AppDelegate.m */,
+				378EF1E01815630D0007CEBB /* Main_iPhone.storyboard */,
+				378EF1E31815630D0007CEBB /* Main_iPad.storyboard */,
+				378EF1E61815630D0007CEBB /* ViewController.h */,
+				378EF1E71815630D0007CEBB /* ViewController.m */,
+				378EF1E91815630D0007CEBB /* Images.xcassets */,
+				378EF1D51815630D0007CEBB /* Supporting Files */,
+				378EF206181566740007CEBB /* RoundRectButton.h */,
+				378EF207181566740007CEBB /* RoundRectButton.m */,
+			);
+			path = Arducopter_Controller;
+			sourceTree = "<group>";
+		};
+		378EF1D51815630D0007CEBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				378EF1D61815630D0007CEBB /* Arducopter_Controller-Info.plist */,
+				378EF1D71815630D0007CEBB /* InfoPlist.strings */,
+				378EF1DA1815630D0007CEBB /* main.m */,
+				378EF1DC1815630D0007CEBB /* Arducopter_Controller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		378EF1F61815630D0007CEBB /* Arducopter_ControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				378EF1FC1815630D0007CEBB /* Arducopter_ControllerTests.m */,
+				378EF1F71815630D0007CEBB /* Supporting Files */,
+			);
+			path = Arducopter_ControllerTests;
+			sourceTree = "<group>";
+		};
+		378EF1F71815630D0007CEBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				378EF1F81815630D0007CEBB /* Arducopter_ControllerTests-Info.plist */,
+				378EF1F91815630D0007CEBB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378EF1CA1815630D0007CEBB /* Arducopter_Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378EF2001815630D0007CEBB /* Build configuration list for PBXNativeTarget "Arducopter_Controller" */;
+			buildPhases = (
+				378EF1C71815630D0007CEBB /* Sources */,
+				378EF1C81815630D0007CEBB /* Frameworks */,
+				378EF1C91815630D0007CEBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arducopter_Controller;
+			productName = Arducopter_Controller;
+			productReference = 378EF1CB1815630D0007CEBB /* Arducopter_Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		378EF1EE1815630D0007CEBB /* Arducopter_ControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378EF2031815630D0007CEBB /* Build configuration list for PBXNativeTarget "Arducopter_ControllerTests" */;
+			buildPhases = (
+				378EF1EB1815630D0007CEBB /* Sources */,
+				378EF1EC1815630D0007CEBB /* Frameworks */,
+				378EF1ED1815630D0007CEBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378EF1F51815630D0007CEBB /* PBXTargetDependency */,
+			);
+			name = Arducopter_ControllerTests;
+			productName = Arducopter_ControllerTests;
+			productReference = 378EF1EF1815630D0007CEBB /* Arducopter_ControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378EF1C31815630D0007CEBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Taiki Suzuki";
+				TargetAttributes = {
+					378EF1CA1815630D0007CEBB = {
+						DevelopmentTeam = W8Y5R6YVHB;
+					};
+					378EF1EE1815630D0007CEBB = {
+						TestTargetID = 378EF1CA1815630D0007CEBB;
+					};
+				};
+			};
+			buildConfigurationList = 378EF1C61815630D0007CEBB /* Build configuration list for PBXProject "Arducopter_Controller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 378EF1C21815630D0007CEBB;
+			productRefGroup = 378EF1CC1815630D0007CEBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378EF1CA1815630D0007CEBB /* Arducopter_Controller */,
+				378EF1EE1815630D0007CEBB /* Arducopter_ControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		378EF1C91815630D0007CEBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378EF1E51815630D0007CEBB /* Main_iPad.storyboard in Resources */,
+				378EF1EA1815630D0007CEBB /* Images.xcassets in Resources */,
+				378EF1E21815630D0007CEBB /* Main_iPhone.storyboard in Resources */,
+				378EF1D91815630D0007CEBB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378EF1ED1815630D0007CEBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378EF1FB1815630D0007CEBB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378EF1C71815630D0007CEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378EF1E81815630D0007CEBB /* ViewController.m in Sources */,
+				378EF1DF1815630D0007CEBB /* AppDelegate.m in Sources */,
+				378EF208181566740007CEBB /* RoundRectButton.m in Sources */,
+				378EF1DB1815630D0007CEBB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378EF1EB1815630D0007CEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378EF1FD1815630D0007CEBB /* Arducopter_ControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		378EF1F51815630D0007CEBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378EF1CA1815630D0007CEBB /* Arducopter_Controller */;
+			targetProxy = 378EF1F41815630D0007CEBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		378EF1D71815630D0007CEBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378EF1D81815630D0007CEBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		378EF1E01815630D0007CEBB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378EF1E11815630D0007CEBB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		378EF1E31815630D0007CEBB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378EF1E41815630D0007CEBB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		378EF1F91815630D0007CEBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378EF1FA1815630D0007CEBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		378EF1FE1815630D0007CEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		378EF1FF1815630D0007CEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		378EF2011815630D0007CEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 大貴 鈴木 (746LKPE4A6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 大貴 鈴木 (746LKPE4A6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arducopter_Controller/Arducopter_Controller-Prefix.pch";
+				INFOPLIST_FILE = "Arducopter_Controller/Arducopter_Controller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4B6E66E4-37B9-46AD-B512-72DCEDDF4F73";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		378EF2021815630D0007CEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 大貴 鈴木 (746LKPE4A6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 大貴 鈴木 (746LKPE4A6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arducopter_Controller/Arducopter_Controller-Prefix.pch";
+				INFOPLIST_FILE = "Arducopter_Controller/Arducopter_Controller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4B6E66E4-37B9-46AD-B512-72DCEDDF4F73";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		378EF2041815630D0007CEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Arducopter_Controller.app/Arducopter_Controller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arducopter_Controller/Arducopter_Controller-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Arducopter_ControllerTests/Arducopter_ControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		378EF2051815630D0007CEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Arducopter_Controller.app/Arducopter_Controller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arducopter_Controller/Arducopter_Controller-Prefix.pch";
+				INFOPLIST_FILE = "Arducopter_ControllerTests/Arducopter_ControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378EF1C61815630D0007CEBB /* Build configuration list for PBXProject "Arducopter_Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378EF1FE1815630D0007CEBB /* Debug */,
+				378EF1FF1815630D0007CEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378EF2001815630D0007CEBB /* Build configuration list for PBXNativeTarget "Arducopter_Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378EF2011815630D0007CEBB /* Debug */,
+				378EF2021815630D0007CEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378EF2031815630D0007CEBB /* Build configuration list for PBXNativeTarget "Arducopter_ControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378EF2041815630D0007CEBB /* Debug */,
+				378EF2051815630D0007CEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378EF1C31815630D0007CEBB /* Project object */;
+}
