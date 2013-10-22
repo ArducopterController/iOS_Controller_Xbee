@@ -99,7 +99,9 @@
                         <outlet property="pitchLabel" destination="od1-bX-FB4" id="Fco-fk-MEr"/>
                         <outlet property="rightSquare" destination="llJ-Ah-3hV" id="p9I-Qr-jt9"/>
                         <outlet property="rollLabel" destination="Vs7-O5-xge" id="Fdu-Jb-sJ9"/>
+                        <outlet property="throttleBtn" destination="VWq-o0-9Ml" id="ldy-kh-quA"/>
                         <outlet property="throttleLabel" destination="6J2-Vj-m7b" id="gsq-dt-rTk"/>
+                        <outlet property="yawBtn" destination="MFK-az-wd8" id="mK4-MU-kyE"/>
                         <outlet property="yawLabel" destination="3BF-xv-6wG" id="EJb-Bi-nLK"/>
                     </connections>
                 </viewController>

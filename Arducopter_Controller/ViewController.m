@@ -21,6 +21,9 @@
     
     self.throttleLabel.transform = CGAffineTransformMakeRotation(M_PI/2);
     self.pitchLabel.transform = CGAffineTransformMakeRotation(M_PI/2);
+    
+    self.socketIO = [[SocketIO alloc] initWithDelegate:self];
+    [self.socketIO connectToHost:@"10.0.1.40" onPort:3456];
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -39,6 +42,8 @@
                                             NSLog(@"%f, %f, %f", acceleration.x, acceleration.y, acceleration.z);
                                             
                                             self.acceBtn.center = CGPointMake((acceleration.y+1)*60, (acceleration.x+1)*60);
+                                            
+                                            [self.socketIO sendEvent:@"value" withData:@{@"ch1":[NSString stringWithFormat:@"%f", acceleration.y], @"ch2":[NSString stringWithFormat:@"%f", acceleration.x], @"ch3":[NSString stringWithFormat:@"%f", self.throttleBtn.center.y], @"ch4":[NSString stringWithFormat:@"%f", self.yawBtn.center.x],nil}];
                                         }];
 }
 
